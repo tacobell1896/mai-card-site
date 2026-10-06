@@ -7,10 +7,10 @@ export default function Home() {
         <div className="bg-white rounded-lg sm:mx-48">
           <div className="flex items-center justify-between px-4 py-3 bg-linear-to-r from-rose-300 to-white rounded-t-lg text-center">
 mai.exe - running
-<div className="flex space-x-2">
-      <div className="w-3 h-3 bg-red-500 rounded-full cursor-pointer hover:bg-red-600 transition-colors"></div>
-      <div className="w-3 h-3 bg-yellow-500 rounded-full cursor-pointer hover:bg-yellow-600 transition-colors"></div>
-      <div className="w-3 h-3 bg-green-500 rounded-full cursor-pointer hover:bg-green-600 transition-colors"></div>
+    <div className="flex space-x-2">
+      <div className="w-8 h-8 bg-green-200 rounded-lg cursor-pointer hover:bg-green-300 transition-colors"></div>
+      <div className="w-8 h-8 bg-cyan-200 rounded-lg cursor-pointer hover:bg-cyan-300 transition-colors"></div>
+      <div className="w-8 h-8 bg-violet-300 rounded-lg cursor-pointer hover:bg-violet-400 transition-colors"></div>
     </div>
           </div>
             <div className="grid sm:grid-cols-2 grid-cols-1 sm:gap-16 px-8 py-6 my-8" >
