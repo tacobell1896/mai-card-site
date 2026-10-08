@@ -15,7 +15,7 @@
 
 body {
 	background: url("/strawberry-bg.png");
+	background-size: cover;
 	color: var(--foreground);
 	font-family: "Roboto Mono", monospace;
-	font-size: 12px;
 }
