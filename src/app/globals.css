@@ -13,6 +13,13 @@
 	--font-mono: var(--font-geist-mono);
 }
 
+@theme {
+    --color-main: #F6ACAC;
+    --color-expand: #D1F6AC;
+    --color-minimize: #ACF6F6;
+    --color-close: #D1ACF6;
+}
+
 body {
 	background: url("/strawberry-bg.png");
 	background-size: cover;
