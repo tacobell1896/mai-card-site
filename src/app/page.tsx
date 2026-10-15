@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
 			<main className="flex flex-col gap-[32px] row-start-2 items-center ">
-        <div className="bg-white rounded-lg sm:mx-48 sm:max-w-1/2">
+        <div className="bg-white rounded-lg xl:mx-48 2xl:max-w-1/2 xl:max-w-3/5 lg:max-w-2/3 sm:max-w-4/5">
           <div className="flex items-center justify-between px-4 py-3 bg-linear-to-r from-(--color-main) to-white rounded-t-lg text-center">
 mai.exe - running
     <div className="flex space-x-2">
@@ -25,17 +25,17 @@ mai.exe - running
 </div>
     </div>
           </div>
-            <div className="grid sm:grid-cols-2 grid-cols-1 sm:gap-x-2 sm:gap-y-16 gap-8 px-8 py-6 my-8" >
-              <Image src="/girl.png" width="300" height="600" alt="Welcome to my site!" className="rounded-lg sm:aspect-auto aspect-square object-cover object-top sm:order-1 order-2 row-span-4"/>
-              <div className="bg-(--color-main) text-center rounded-lg sm:order-2 order-1 sm:col-2 flex items-center justify-around row-span-2 p-8">
+            <div className="grid md:grid-cols-2 grid-cols-1 md:gap-x-2 md:gap-y-16 gap-8 px-8 py-6 my-8" >
+              <Image src="/girl.png" width="300" height="600" alt="Welcome to my site!" className="rounded-lg md:aspect-auto aspect-square object-cover object-top md:order-1 order-2 row-span-4"/>
+              <div className="bg-(--color-main) text-center rounded-lg lg:order-2 order-1 lg:col-2 flex items-center justify-around row-span-2 p-8">
                 Hi, I’m Mai ˖◛⁺⑅♡ Cosplayer/Agnes Tachyon lover.
                 More of me below (´ε｀ )♡
               </div>
-              <a href="https://x.com/ggs_cos" className="bg-(--color-main) text-center rounded-lg order-3 sm:col-2 flex items-center justify-around p-8">
+              <a href="https://x.com/ggs_cos" className="bg-(--color-main) text-center rounded-lg order-3 lg:col-2 flex items-center justify-around p-8">
                 Twitter (´• ω •`) ♡
                 (I post daily) (Secret Link is there!)
               </a>
-              <a href="https://www.instagram.com/xxggsonlyxx" className="bg-(--color-main) text-center rounded-lg order-4 sm:col-2 flex items-center justify-around p-8">
+              <a href="https://www.instagram.com/xxggsonlyxx" className="bg-(--color-main) text-center rounded-lg order-4 lg:col-2 flex items-center justify-around p-8">
                 Instagram ♡( ◡‿◡ )
               </a>
             </div>
