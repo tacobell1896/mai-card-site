@@ -31,13 +31,17 @@ mai.exe - running
                 Hi, I’m Mai ˖◛⁺⑅♡ Cosplayer/Agnes Tachyon lover.
                 More of me below (´ε｀ )♡
               </div>
-              <a href="https://x.com/ggs_cos" className="bg-(--color-main) text-center rounded-lg order-3 lg:col-2 flex items-center justify-around p-8">
+            <div className="bg-(--color-main) text-center rounded-lg order-3 lg:col-2 items-center justify-around p-8 flex">
+              <a href="https://x.com/ggs_cos" >
                 Twitter (´• ω •`) ♡
-                (I post daily) (Secret Link is there!)
+                (I post daily) (Secret<span className="text-sky-600 font-bold italic inline"> Link</span> is there!)
               </a>
-              <a href="https://www.instagram.com/xxggsonlyxx" className="bg-(--color-main) text-center rounded-lg order-4 lg:col-2 flex items-center justify-around p-8">
+            </div>
+            <div className="bg-(--color-main) text-center rounded-lg order-3 lg:col-2 items-center justify-around p-8 flex">
+              <a href="https://www.instagram.com/xxggsonlyxx">
                 Instagram ♡( ◡‿◡ )
               </a>
+            </div>
             </div>
         </div>
 			</main>
